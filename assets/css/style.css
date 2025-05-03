@@ -586,3 +586,72 @@ li, a {
     width: 24p;
     height: auto;
 }
+/* Responsivo para mobile */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+    .header_nav_list {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .main {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 10px;
+    }
+    .img_capa {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .div_main {
+        width: 100%;
+        padding: 20px;
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+    .main_title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .main_text {
+        font-size: 16px;
+        line-height: 24px;
+        height: auto;
+    }
+    .div-btns {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .conteudo_essencial,
+    .beneficios_estagio,
+    .cta_oferta,
+    .depoimentos_estudantes {
+        padding: 2rem 1rem;
+        height: auto;
+    }
+    .cards_container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .cta_title,
+    .section_title,
+    .cta_final_title {
+        font-size: 1.5rem;
+    }
+    .cta_subtitle,
+    .section_subtitle,
+    .cta_final_text {
+        font-size: 1rem;
+    }
+    .preco_atual {
+        font-size: 2rem;
+    }
+    .faq_container {
+        padding: 0 1rem;
+    }
+}
