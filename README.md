@@ -1,3 +1,4 @@
+<img src='assets/img/Captura de tela de 2025-05-07 17-18-58.png'>
 <h1 align="center">📚 Landing Page - eBook da Rede Cuidadora</h1>
 
 <p align="center">🚧 <strong>Em Construção</strong> 🚧</p>
